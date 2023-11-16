@@ -9,10 +9,6 @@ Licensed    : GPL Themes
   box-sizing: border-box;
 }
 
-body {
-  overflow: hidden;
-}
-
 #header {
   background-color: #b4b4b4;
 }

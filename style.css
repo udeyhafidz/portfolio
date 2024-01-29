@@ -7,6 +7,7 @@ Licensed    : GPL Themes
 
 * {
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 #header {
@@ -35,7 +36,7 @@ nav .navbar-brand {
 }
 
 nav a.nav-link {
-  color: #221818 !important;
+  color: #4e4848 !important;
   font-size: 20px;
   margin: 0 10px;
 }
@@ -43,8 +44,8 @@ nav a.nav-link {
 nav a.nav-link.active,
 nav a.nav-link:hover {
   border-radius: 10px;
-  background-color: rgb(48, 79, 163);
-  color: #dbdbdb !important;
+  background-color: #5c606e;
+  color: #2b2c30 !important;
 }
 
 /* Preloader */
@@ -117,13 +118,7 @@ nav a.nav-link:hover {
 /* About */
 #about {
   position: relative;
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(65, 210, 162, 1) 40%,
-    rgba(143, 253, 45, 1) 100%
-  );
+  background-image: url("assets/images/computer2.jpg");
   padding: 130px 0;
   text-align: center;
 }
@@ -131,7 +126,7 @@ nav a.nav-link:hover {
 #about img {
   width: 200px;
   height: 200px;
-  border: 5px solid #2a62da;
+  border: 5px solid #b7c7eb;
   object-fit: cover;
   -o-object-fit: cover;
   object-position: top center;
@@ -142,7 +137,7 @@ nav a.nav-link:hover {
 #about h1 {
   margin: 0;
   padding: 25px 0 10px 0;
-  color: #2a62da;
+  color: #d60404;
   font-size: 30px;
   text-transform: uppercase;
   font-family: "Black Han Sans", sans-serif;
@@ -150,38 +145,38 @@ nav a.nav-link:hover {
 
 #about h5 {
   margin: 0;
-  text-align: center;
   padding: 10px;
-  color: #2a62da;
+  color: #8798bb;
   font-size: 20px;
   font-family: "Komika Axis";
 }
 
-#about .sosial-media {
+#contact .sos-med .sosial-media {
   padding: 10px 5px;
+  text-align: center;
 }
 
-#about .sosial-media a {
+#contact .sos-med .sosial-media a {
   position: relative;
   font-size: 40px;
   margin: 10px 5px;
 }
 
-#about .sosial-media a.fb {
+#contact .sos-med .sosial-media a.fb {
   border-radius: 5px;
-  color: #0008f5;
+  color: #ffffff;
 }
 
-#about .sosial-media a.fb:hover {
+#contact .sos-med .sosial-media a.fb:hover {
   color: rgb(48, 132, 228);
 }
 
-#about .sosial-media a.ig {
+#contact .sos-med .sosial-media a.ig {
   border-radius: 5px;
   color: orangered;
 }
 
-#about .sosial-media a.ig:hover {
+#contact .sos-med .sosial-media a.ig:hover {
   color: #b66c2f;
 }
 
@@ -189,13 +184,13 @@ nav a.nav-link:hover {
 #services {
   position: relative;
   padding: 50px 0;
-  background-color: #74e6cd;
+  background-color: #444f58;
 }
 
 #services h2 {
   margin: 50px 0;
   text-align: center;
-  color: #2a62da;
+  color: #b8c7e7;
   font-size: 40px;
   font-family: "Komika Axis";
 }
@@ -215,16 +210,18 @@ nav a.nav-link:hover {
   width: 70%;
 }
 
-#services .service-list .service-item h2 {
-  color: #2a62da;
+#services .service-list .service-item h3 {
+  font-size: 20px;
+  color: #849bcc;
   margin: 15px 0;
   text-transform: uppercase;
 }
 
-#services .service-list .service-item marquee p {
-  color: #145caf;
+#services .service-list .service-item p {
+  color: #849bcc;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
+  padding-left: 80px;
 }
 
 #services .service-list .service-item a.btn {
@@ -245,13 +242,9 @@ nav a.nav-link:hover {
 /* Projects */
 #project {
   position: relative;
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(65, 210, 162, 1) 40%,
-    rgba(143, 253, 45, 1) 100%
-  );
+  background-color: #ccbdbd;
+  /* background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(65, 210, 162, 1) 40%, rgba(143, 253, 45, 1) 100%); */
   padding: 50px 0;
 }
 
@@ -296,13 +289,13 @@ nav a.nav-link:hover {
 #testimonial {
   position: relative;
   padding: 50px 0 200px 0;
-  background-color: #74e6cd;
+  background-color: #dad6ce;
 }
 
 #testimonial h2 {
   position: relative;
   margin-bottom: 50px;
-  color: #2a62da;
+  color: #6b758a;
   font-size: 40px;
   text-align: center;
   font-family: "Komika Axis";
@@ -320,7 +313,7 @@ nav a.nav-link:hover {
 }
 
 #testimonial .carousel-item .carousel-content h5 {
-  color: #2a62da;
+  color: #676e72;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -334,13 +327,9 @@ nav a.nav-link:hover {
 #contact {
   position: relative;
   padding: 50px;
-  background: rgb(34, 193, 195);
-  background: linear-gradient(
-    0deg,
-    rgba(34, 193, 195, 1) 0%,
-    rgba(65, 210, 162, 1) 40%,
-    rgba(143, 253, 45, 1) 100%
-  );
+  background-image: url("assets/images/com.jpg");
+  /* background: rgb(34, 193, 195);
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(65, 210, 162, 1) 40%, rgba(143, 253, 45, 1) 100%); */
 }
 
 .container h2 {
@@ -426,7 +415,23 @@ nav a.nav-link:hover {
 
 /* Responsive */
 @media (max-width: 768px) {
+  * {
+    display: block;
+  }
+
+  nav a.nav-link {
+    position: relative;
+    font-size: 15px;
+  }
+
+  #about img {
+    margin: 100px;
+    text-align: center;
+    padding: 50px auto;
+  }
+
   #services .service-list .service-item img {
+    margin: 80px;
     width: 75%;
   }
 
@@ -444,6 +449,20 @@ nav a.nav-link:hover {
   section,
   footer {
     overflow: hidden;
+  }
+
+  #about img {
+    margin: 100px;
+  }
+
+  #services .service-list .service-item img {
+    margin: 50px;
+    width: 75%;
+  }
+
+  #services .service-list .service-item p {
+    margin: 5px;
+    width: 75%;
   }
 
   #services .service-list .service-item {
